@@ -1,0 +1,38 @@
+{
+    "name": "query-builder-example",
+    "version": "1.0.0",
+    "description": "Query builder example with Postgres",
+    "main": "build/index.js",
+    "files": [
+      "build"
+    ],
+    "scripts": {
+      "build": "tsc && cp package.json build && cp package-lock.json build",
+      "test": "jest",
+      "format": "prettier --write ."
+    },
+    "author": "Multitaskr Inc",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/jest": "^29.5.7",
+      "@types/node": "^20.8.9",
+      "jest": "^29.7.0",
+      "jest-mock": "^29.7.0",
+      "prettier": "^3.0.3",
+      "ts-jest": "^29.1.1",
+      "typescript": "^5.2.2"
+    },
+    "dependencies": {
+      "pg": "^8.11.3"
+    },
+    "prettier": {
+      "trailingComma": "es5",
+      "semi": false,
+      "singleQuote": true,
+      "useTabs": false,
+      "quoteProps": "consistent",
+      "bracketSpacing": true,
+      "arrowParens": "always",
+      "printWidth": 100
+    }
+  }

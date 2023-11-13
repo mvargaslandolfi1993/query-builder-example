@@ -1,0 +1,15 @@
+{
+    "include": ["**/*", "assets/**/*"],
+    "exclude": ["node_modules", "build", "tests"],
+    "compilerOptions": {
+      "target": "es2022",
+      "outDir": "build",
+      "rootDir": "./",
+      "sourceMap": false,
+      "declaration": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "module": "CommonJS",
+    }
+  }
+  
